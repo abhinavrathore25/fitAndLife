@@ -85,7 +85,7 @@ function App() {
         </div>
         <a href={MAP_ADDRESS} target='_blank' rel='noreferrer'><img src={map} className='map' alt='map' /></a>
         <p>
-          <a href={MAP_ADDRESS} target='_blank' rel='noreferrer'><i className="fa-solid fa-location-dot"></i></a>
+          <i className="fa-solid fa-location-dot"></i>
           <i className="fa-brands fa-instagram"></i>
           <i className="fa-brands fa-square-facebook"></i>
         </p>

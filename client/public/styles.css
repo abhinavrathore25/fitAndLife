@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    color: #CFD0D2;
+    color: #CFD0D2 !important;
     height: 100%;
     width: 100vw;
     max-width: 100%;
@@ -32,7 +32,7 @@ body::-webkit-scrollbar, .image-container::-webkit-scrollbar {
     /* background-image: linear-gradient(to bottom, rgb(58,18,90, 0.5), #000000); */
     /* background-image: linear-gradient(to bottom, #3A125A, #000000); */
     backdrop-filter: blur(100px);
-    color: #fff;
+    /* color: #fff; */
 }
 
 #header {
