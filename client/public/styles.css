@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    color: #CFD0D2;
+    height: 100%;
+    width: 100vw;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Poppins', sans-serif !important;
+    background-image: radial-gradient(at 20% 20%, #222d40 30%, #02030b);
+    background-repeat: no-repeat;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar, .image-container::-webkit-scrollbar {
+    display: none;
+  }
+
+#root {
+    height: 100%;
+    width: 100vw;
+    max-width: 100%;
+    /* background-image: linear-gradient(to bottom, rgb(58,18,90, 0.5), #000000); */
+    /* background-image: linear-gradient(to bottom, #3A125A, #000000); */
+    backdrop-filter: blur(100px);
+    color: #fff;
+}
+
+#header {
+    margin: 0 24px;
+    height: 9vh;
+}
+
+li a {
+    font-size: large !important;
+    color: #fff !important;
+    padding: 0px 10px !important;
+}
+
+ul li {
+    float: right;
+}
+
+.navbar {
+    color: #fff !important;
+    background-color: transparent;
+}
+
+.logo {
+    width: 110px;
+    margin-left: 10px;
+}
+
+.joinNowButton {
+    margin: 0 2% 0 20%;
+    width: fit-content;
+    padding: 5px;
+    border: none;
+}
+
+.joinNowButton:hover {
+    box-shadow: 3px 3px 10px rgb(253, 249, 241);
+}
+
+.invite-container {
+    align-items: center;
+    display: flex;
+    padding: 8% 8% 8% 5%;
+    font-size: 1.6rem;
+}
+
+.grid-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: column;
+    height: 91vh;
+}
+
+@media (max-width: 700px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 0;
+        grid-template-rows: repeat(4, 1fr);
+        grid-auto-flow: column;
+        height: 90%;
+    }
+
+    .animation-container {
+        grid-column: 1/2;
+    }
+}
+
+.fitness-animation {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 2;
+}
+
+.heart-rate {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 40px;
+    right: 50px;
+}
+
+.image {
+    width: 30vw;
+    /* width: 60%; */
+    align-self: flex-end;
+    margin-left: 20%;
+}
+
+/* GYM DESCRIPTION COMPONENT */
+
+.desc-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    font-size: 1.26rem;
+    column-gap: 0%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.description-container {
+    align-items: end;
+    justify-content: center;
+    display: flex;
+}
+
+.section-heading {
+    /* font-size: 4.6rem; */
+    font-size: 3vw;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.plans>p span {
+    text-shadow: 2px 2px #fff, 2px -2px #fff, -2px 2px #fff, -2px -2px #fff;
+    color: rgba(0, 0, 0, 1);
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-auto-flow: column;
+    height: 100%;
+    width: 100vw;
+    max-width: 100%;
+    padding: 0% 15%;
+    justify-content: space-around;
+}
+
+.image-container {
+    display: grid;
+    width: 100vw;
+    max-width: 100%;
+    padding: 10px;
+    grid-auto-flow: column;
+    grid-template-rows: 200px;
+    grid-column-gap: 2%;
+    grid-template-columns: auto;
+    overflow-y: hidden;
+}
+
+.footer{
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-info{
+    opacity: 70%;
+}
+
+.footer i {
+    font-size: 1.5rem;
+    padding: 1%;
+    margin-top: 2%;
+    opacity: 80%;
+}
+
+.map{
+    width: 100%;
+    opacity: 90%;
+}
+
+.map:hover{
+    opacity: 70%;
+}

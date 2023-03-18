@@ -1,0 +1,60 @@
+.wrapper-div {
+    width: 140px;
+    height: 140px;
+    border-radius: 15px;
+    background-color: #3A3D44;
+    color: #fff;
+    padding: 12px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.wrapper-div p {
+    margin-bottom: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+.wrapper-div p:nth-child(1) {
+    margin-top: -0.9rem;
+    margin-left: -0.3rem;
+    font-size: 3rem;
+    animation: heartbeat 1s 2;
+    position: absolute;
+}
+
+.wrapper-div p:nth-child(2) {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-top: 56px;
+}
+
+.wrapper-div p:nth-child(3) {
+    font-size: 1.5rem;
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .90 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .90 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .90 );
+  }
+  100%
+  {
+    transform: scale( .90 );
+  }
+}

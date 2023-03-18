@@ -1,0 +1,56 @@
+/* ANIMATION CSS : BEGIN */
+
+#text{
+    font-size: 1.6rem;
+}
+
+.animation-container {
+    position: relative;
+    display: flex;
+    background-color: transparent;
+    width: 540px;
+    height: fit-content;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8% 8% 8% 5%;
+}
+ 
+ .animated-parent-div {
+    position: relative;
+    background-color: #3A3D44;
+    border-radius: 50px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    color: white;
+}
+ 
+
+
+ @keyframes move {
+    from {
+       margin-left: 200px;
+    }
+ 
+    to {
+       margin-left: -5px;
+    }
+ }
+ 
+ .animated-child-div {
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -5px;
+    width: 160px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50px;
+    animation-duration: 2s;
+    animation-name: move;
+ }
+ 
+ #text {
+    position: relative;
+ }
+
+/* ANIMATION CSS : END */
