@@ -22,21 +22,14 @@ function App() {
 
   return (
     <>
-      <div id='home'>
-        <div id="header">
-          <Navbar />
-        </div>
+      <div id='header'>
+        <Navbar />
+      </div>
+      <div id='home' className='home'>
 
-        <div className="grid-container" id='home'>
+        <div className='grid-container' id='home'>
           <div className='animation'>
             <Animation />
-          </div>
-
-          <div className='fitness-animation'>
-            <img src={model} className='image' alt='model-img' />
-            <div className='heart-rate'>
-              <HeartRate />
-            </div>
           </div>
 
           <div className='invite-container'>
@@ -46,6 +39,13 @@ function App() {
 
           <div className='description-container'>
             <GymDescription />
+          </div>
+
+          <div className='fitness-animation'>
+            <img src={model} className='image' alt='model-img' />
+            <div className='heart-rate'>
+              <HeartRate />
+            </div>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ function App() {
         </div>
       </div>
 
-      <div className='gallery'>
+      <div className='gallery' id='gallery'>
         <p className='section-heading'>GALLERY</p>
         <div className='image-container' ref={scrollRef}>
           <img src={`https://source.unsplash.com/random/200x200/?fitness&sig=${getRandomNumber()}`} alt='fitness' draggable='false' />
@@ -80,7 +80,7 @@ function App() {
       <div id='footer' className='footer'>
         <p className='section-heading'>Contact Us</p>
         <div className='contact-info'>
-          <p>ANAND KUSHWAH: +91 93058 69074</p>
+          <p>ANAND KUSHWAH: <a href="tel:+91-93058-69074">+91 93058 69074</a></p>
           <p>BEHIND OF ANNAPURNA GARDEN, FRIENDS COLONY <br /> INDIRA NAGAR, JHANSI, UTTAR PRADESH 284003</p>
         </div>
         <a href={MAP_ADDRESS} target='_blank' rel='noreferrer'><img src={map} className='map' alt='map' /></a>

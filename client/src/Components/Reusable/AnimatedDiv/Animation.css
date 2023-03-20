@@ -2,6 +2,7 @@
 
 #text{
     font-size: 1.6rem;
+    position: relative;
 }
 
 .animation-container {
@@ -9,6 +10,7 @@
     display: flex;
     background-color: transparent;
     width: 540px;
+    /* width: max(100%, 10vh); */
     height: fit-content;
     align-items: center;
     justify-content: flex-start;
@@ -38,19 +40,26 @@
  }
  
  .animated-child-div {
-    position: absolute;
-    margin-top: -5px;
-    margin-left: -5px;
-    width: 160px;
-    height: 50px;
-    background-color: orange;
-    border-radius: 50px;
-    animation-duration: 2s;
-    animation-name: move;
- }
- 
- #text {
-    position: relative;
+   position: absolute;
+   margin-top: -5px;
+   margin-left: -5px;
+   width: 160px;
+   height: 83%;
+   background-color: orange;
+   border-radius: 50px;
+   animation-duration: 2s;
+   animation-name: move;
+}
+
+ @media (max-width: 1080px) {
+   #text {
+      font-size: 100%;
+  }
+
+  .animation-container {
+   width: 400px;
+  }
+
  }
 
 /* ANIMATION CSS : END */

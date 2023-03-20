@@ -58,3 +58,10 @@
     transform: scale( .90 );
   }
 }
+
+
+@media (max-width: 1080px) {
+  .wrapper-div{
+  transform: scale(0.7);
+  }
+}
