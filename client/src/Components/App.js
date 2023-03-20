@@ -80,7 +80,7 @@ function App() {
       <div id='footer' className='footer'>
         <p className='section-heading'>Contact Us</p>
         <div className='contact-info'>
-          <p>ANAND KUSHWAH: <a href="tel:+91-93058-69074">+91 93058 69074</a></p>
+          <p>ANAND KUSHWAH: <a href="tel:+91-93058-69074" style={{textDecoration: 'none', color: '#8A8D94'}}>+91 93058 69074</a></p>
           <p>BEHIND OF ANNAPURNA GARDEN, FRIENDS COLONY <br /> INDIRA NAGAR, JHANSI, UTTAR PRADESH 284003</p>
         </div>
         <a href={MAP_ADDRESS} target='_blank' rel='noreferrer'><img src={map} className='map' alt='map' /></a>
