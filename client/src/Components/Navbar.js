@@ -28,7 +28,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                     <button className='joinNowButton'>
-                        <a href={`https://wa.me/+918005012432?text=${userMessage}`} 
+                        <a href={`https://wa.me/+919305869074?text=${userMessage}`} 
                         target='_blank' rel='noreferrer' style={{textDecoration:'none', color: '#000'}}>Join Now</a>
                     </button>
                 </div>

@@ -85,7 +85,8 @@ function App() {
         </div>
         <a href={MAP_ADDRESS} target='_blank' rel='noreferrer'><img src={map} className='map' alt='map' /></a>
         <p>
-          <a href='https://wa.me/+918005012432?text=hi' target='_blank' rel='noreferrer' style={{ color: '#00E676' }}>
+          <a href='https://wa.me/+919305869074?text=Hi, I am interested in joining FitAndLife. Can we get in touch?'
+            target='_blank' rel='noreferrer' style={{ color: '#00E676' }}>
             <i className="fa-brands fa-whatsapp"></i></a>
           <a href='/' style={{ color: '#941B89' }}><i className="fa-brands fa-instagram"></i></a>
           <a href='/' style={{ color: '#007aee' }}><i className="fa-brands fa-square-facebook"></i></a>
