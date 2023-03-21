@@ -67,6 +67,16 @@ ul li {
     background-image: linear-gradient(to right, rgb(33, 45, 63, 0.5), rgb(18, 25, 38, 0.5));
 }
 
+.navbar ul li{
+    text-decoration: underline transparent;
+    text-underline-offset: 3px;
+    transition: text-decoration 0.3s;
+}
+
+.navbar ul li:hover{
+    text-decoration: underline #fff;
+}
+
 .logo {
     width: 110px;
     margin-left: 20px;
@@ -219,7 +229,7 @@ ul li {
     .fitness-animation {
         grid-row-start: 4;
         grid-row-end: 4;
-        padding-left: 0;
+        padding-left: 10%;
     }
 
     .card-container {

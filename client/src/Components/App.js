@@ -82,6 +82,10 @@ function App() {
         <div className='contact-info'>
           <p>ANAND KUSHWAH: <a href="tel:+91-93058-69074" style={{ textDecoration: 'none', color: '#8A8D94' }}>+91 93058 69074</a></p>
           <p>BEHIND OF ANNAPURNA GARDEN, FRIENDS COLONY <br /> INDIRA NAGAR, JHANSI, UTTAR PRADESH 284003</p>
+          <br/>
+          <p>VISITING HOURS: <br/>  
+          5:30 A.M. - 11 A.M. <br/>
+          5:30 P.M. - 10 P.M.</p>
         </div>
         <a href={MAP_ADDRESS} target='_blank' rel='noreferrer'><img src={map} className='map' alt='map' /></a>
         <p>
@@ -90,6 +94,9 @@ function App() {
             <i className="fa-brands fa-whatsapp"></i></a>
           <a href='/' style={{ color: '#941B89' }}><i className="fa-brands fa-instagram"></i></a>
           <a href='/' style={{ color: '#007aee' }}><i className="fa-brands fa-square-facebook"></i></a>
+          <a href='https://www.youtube.com/@jhansi_fitness'
+            target='_blank' rel='noreferrer' style={{ color: '#FF0000' }}>
+            <i className="fa-brands fa-youtube"></i></a>
         </p>
       </div>
     </>

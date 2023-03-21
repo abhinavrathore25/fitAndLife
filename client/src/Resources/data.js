@@ -1,6 +1,6 @@
 let list = [
     {
-        type: 'BASIC PLAN',
+        type: 'BASIC PLAN 🤟',
         price: 799,
         validity: 'Monthly',
         perks: [
@@ -11,7 +11,7 @@ let list = [
     }
     ,
     {
-        type: 'PRO PLAN',
+        type: 'PRO PLAN ⭐',
         price: 2199,
         validity: 'Quaterly',
         perks: [
@@ -22,7 +22,7 @@ let list = [
     }
     ,
     {
-        type: 'PREMIUM PLAN',
+        type: 'PREMIUM PLAN 👑',
         price: 8199,
         validity: 'Yearly',
         perks: [

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e66d047.css",
-    "main.js": "/static/js/main.cecdcd35.js",
+    "main.css": "/static/css/main.bbc1fb87.css",
+    "main.js": "/static/js/main.bdd736ff.js",
     "static/media/model.png": "/static/media/model.be45f7f0d1210c233db3.png",
     "static/media/fitAndLifeLogo.png": "/static/media/fitAndLifeLogo.5e23d8655f03bed296bd.png",
     "static/media/map.png": "/static/media/map.100fca4cbe48d0aad4d3.png",
     "index.html": "/index.html",
-    "main.6e66d047.css.map": "/static/css/main.6e66d047.css.map",
-    "main.cecdcd35.js.map": "/static/js/main.cecdcd35.js.map"
+    "main.bbc1fb87.css.map": "/static/css/main.bbc1fb87.css.map",
+    "main.bdd736ff.js.map": "/static/js/main.bdd736ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e66d047.css",
-    "static/js/main.cecdcd35.js"
+    "static/css/main.bbc1fb87.css",
+    "static/js/main.bdd736ff.js"
   ]
 }
