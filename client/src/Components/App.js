@@ -80,14 +80,15 @@ function App() {
       <div id='footer' className='footer'>
         <p className='section-heading'>Contact Us</p>
         <div className='contact-info'>
-          <p>ANAND KUSHWAH: <a href="tel:+91-93058-69074" style={{textDecoration: 'none', color: '#8A8D94'}}>+91 93058 69074</a></p>
+          <p>ANAND KUSHWAH: <a href="tel:+91-93058-69074" style={{ textDecoration: 'none', color: '#8A8D94' }}>+91 93058 69074</a></p>
           <p>BEHIND OF ANNAPURNA GARDEN, FRIENDS COLONY <br /> INDIRA NAGAR, JHANSI, UTTAR PRADESH 284003</p>
         </div>
         <a href={MAP_ADDRESS} target='_blank' rel='noreferrer'><img src={map} className='map' alt='map' /></a>
         <p>
-          <i className="fa-solid fa-location-dot"></i>
-          <i className="fa-brands fa-instagram"></i>
-          <i className="fa-brands fa-square-facebook"></i>
+          <a href='https://wa.me/+918005012432?text=hi' target='_blank' rel='noreferrer' style={{ color: '#00E676' }}>
+            <i className="fa-brands fa-whatsapp"></i></a>
+          <a href='/' style={{ color: '#941B89' }}><i className="fa-brands fa-instagram"></i></a>
+          <a href='/' style={{ color: '#007aee' }}><i className="fa-brands fa-square-facebook"></i></a>
         </p>
       </div>
     </>

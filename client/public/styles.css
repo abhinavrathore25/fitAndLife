@@ -17,13 +17,16 @@ body {
     font-family: 'Poppins', sans-serif !important;
     background-image: radial-gradient(at 20% 20%, #222d40 30%, #02030b);
     background-repeat: no-repeat;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
-body::-webkit-scrollbar, .image-container::-webkit-scrollbar {
+body::-webkit-scrollbar,
+.image-container::-webkit-scrollbar {
     display: none;
-  }
+}
 
 #root {
     height: 100%;
@@ -34,7 +37,7 @@ body::-webkit-scrollbar, .image-container::-webkit-scrollbar {
     backdrop-filter: blur(100px);
 }
 
-.home{
+.home {
     height: fit-content;
     width: 100%;
     width: 100%;
@@ -44,10 +47,8 @@ body::-webkit-scrollbar, .image-container::-webkit-scrollbar {
     position: sticky;
     top: 0;
     height: 9vh;
-    z-index: 5;
-    padding: 0 25px;
+    z-index: 1000;
     backdrop-filter: blur(10px);
-    /* background-image: linear-gradient(to bottom, #121926, transparent); */
 }
 
 li a {
@@ -63,16 +64,16 @@ ul li {
 .navbar {
     color: #fff !important;
     background-color: transparent;
-    background-image: linear-gradient(to right,rgb(33,45,63, 0.5), rgb(18,25,38, 0.5));
+    background-image: linear-gradient(to right, rgb(33, 45, 63, 0.5), rgb(18, 25, 38, 0.5));
 }
 
 .logo {
     width: 110px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .joinNowButton {
-    margin: 0 2% 0 20%;
+    margin: 0 5% 0 20%;
     width: fit-content;
     padding: 5px;
     border: none;
@@ -82,7 +83,7 @@ ul li {
     box-shadow: 3px 3px 10px rgb(253, 249, 241);
 }
 
-.animation{
+.animation {
     width: fit-content;
 }
 
@@ -152,7 +153,8 @@ ul li {
 }
 
 .section-heading {
-    font-size: 3vw;
+    font-size: 40px;
+    /* font-size: 3vw; */
     text-align: center;
     margin: 5% 0;
 }
@@ -186,29 +188,29 @@ ul li {
     overflow-y: hidden;
 }
 
-.footer{
+.footer {
     height: fit-content;
     width: 100%;
     text-align: center;
 }
 
-.contact-info{
+.contact-info {
     opacity: 70%;
 }
 
 .footer i {
     font-size: 1.5rem;
-    padding: 1%;
+    padding: 2%;
     margin-top: 2%;
     opacity: 80%;
 }
 
-.map{
+.map {
     width: 100%;
     opacity: 90%;
 }
 
-.map:hover{
+.map:hover {
     opacity: 70%;
 }
 
@@ -234,10 +236,10 @@ ul li {
         grid-row-gap: 2%;
     }
 
-    .navbar ul{
-            width: fit-content;
-            text-align: end;
-            background-color: #121926;
+    .navbar ul {
+        width: fit-content;
+        text-align: end;
+        background-color: #121926;
     }
 
     .joinNowButton {

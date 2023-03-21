@@ -2,6 +2,9 @@ import React from 'react';
 import './Card.css';
 
 const Card = ({ type, price, validity, perks }) => {
+
+    const userMessage = `Hi, I am interested in ${validity} plan @Rs.${price}`;
+
     return (
         <div className='card'>
             <p>{type}</p>
@@ -13,7 +16,7 @@ const Card = ({ type, price, validity, perks }) => {
                 })
             }
 
-            <button className='card-button'>JOIN NOW</button>
+            <a href={`https://wa.me/+918005012432?text=${userMessage}`} target='_blank' rel='noreferrer'><button className='card-button'>JOIN NOW</button></a>
         </div>
     )
 }

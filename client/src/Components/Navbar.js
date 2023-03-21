@@ -2,12 +2,14 @@ import React from 'react';
 import fitAndLifeLogo from '../Resources/fitAndLifeLogo.png';
 
 const Navbar = () => {
+    const userMessage = 'Hi, I am interested in joining FitAndLife. Can we get in touch?';
+
     return (
         <nav className="navbar navbar-dark navbar-expand-lg sticky-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="/"> <img src={fitAndLifeLogo} className="logo" alt="img"></img> </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -25,7 +27,10 @@ const Navbar = () => {
                             <a className="nav-link" href="#footer">Contact Us</a>
                         </li>
                     </ul>
-                    <button className='joinNowButton' href='#plans'>Join Now</button>
+                    <button className='joinNowButton'>
+                        <a href={`https://wa.me/+918005012432?text=${userMessage}`} 
+                        target='_blank' rel='noreferrer' style={{textDecoration:'none', color: '#000'}}>Join Now</a>
+                    </button>
                 </div>
             </div>
         </nav>
