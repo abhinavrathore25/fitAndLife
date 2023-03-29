@@ -1,0 +1,48 @@
+.loginModal {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0, 0.8);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.loginForm {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    justify-self: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.email, .password {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.loginButton{
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 9px;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #fff;
+    margin-top: 4%;
+    padding: 3px 35px;
+    font-size: 1em;
+}
+
+
+.loginButton:hover{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
+ }

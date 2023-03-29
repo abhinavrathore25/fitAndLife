@@ -16,7 +16,8 @@ const Card = ({ type, price, validity, perks }) => {
                 })
             }
 
-            <a href={`https://wa.me/+919305869074?text=${userMessage}`} target='_blank' rel='noreferrer'><button className='card-button'>JOIN NOW</button></a>
+            <a href={`https://wa.me/+919305869074?text=${userMessage}`} 
+            target='_blank' rel='noreferrer'><button className='card-button'>JOIN NOW</button></a>
         </div>
     )
 }

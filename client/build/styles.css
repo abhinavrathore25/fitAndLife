@@ -29,6 +29,7 @@ body::-webkit-scrollbar,
 }
 
 #root {
+    display: grid;
     height: 100%;
     width: 100%;
     max-width: 100%;

@@ -1,0 +1,62 @@
+:root{
+  --textColor: #cfd0d2;
+}
+
+.tableContainer {
+    padding: 10px;
+    margin: 5% 0;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+  }
+
+table th,table td{
+    padding: 10px;
+}
+
+table tr:nth-child(even){background-color: rgba(255, 255, 255, 0.03);}
+
+table tr:hover {background-color: rgba(255, 255, 255, 0.05);}
+
+table th {
+    background-color: #331763;
+  }
+
+td:first-child,
+th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+td:last-child,
+th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.memberInput{
+ color: var(--textColor);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.addMemberBtn{
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9px;
+  width: -moz-fit-content;
+  width: fit-content;
+ color: var(--textColor);
+  font-size: 1em;
+  padding: 5%;
+}
+
+.addMemberBtn:hover{
+  border: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0.05);
+}

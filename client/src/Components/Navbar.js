@@ -1,7 +1,7 @@
 import React from 'react';
 import fitAndLifeLogo from '../Resources/fitAndLifeLogo.png';
 
-const Navbar = () => {
+const Navbar = ({showLogin, setShowLogin}) => {
     const userMessage = 'Hi, I am interested in joining FitAndLife. Can we get in touch?';
 
     return (
@@ -25,6 +25,11 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#footer">Contact Us</a>
+                        </li>
+                        <li className="nav-item">
+                            {/* <button style={{backgroundColor:'transparent', border:'none'}}> */}
+                            <a className="nav-link" href='#' onClick={() => setShowLogin(!showLogin)}>Login</a>
+                            {/* </button> */}
                         </li>
                     </ul>
                     <button className='joinNowButton'>
