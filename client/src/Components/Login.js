@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {React, useState} from 'react';
 import './Login.css';
-import config from './axiosConfig';
+import {config} from './axiosConfig';
 
 const Login = ({isLoggedIn}) => {
 

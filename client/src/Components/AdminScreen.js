@@ -2,10 +2,10 @@ import React, { useEffect, useState, useCallback } from 'react';
 import './AdminScreen.css';
 import axios from 'axios';
 import plans from '../Resources/data';
-import config from './axiosConfig';
+import {config, URL} from './axiosConfig';
 
 const AdminScreen = () => {
-
+    
     const defaultMemberState = {
         name: '',
         contact: '',
@@ -36,7 +36,7 @@ const AdminScreen = () => {
 
         event.preventDefault();
         if (event.target.innerHTML === 'ADD' && errorMessage === '') {
-            axios.post('http://localhost:8080/add', newMember, config)
+            axios.post(`${URL}/add`, newMember, config)
                 .then(res => '')
                 .catch(err => console.log(err));
             setNewMember(defaultMemberState);
@@ -49,7 +49,7 @@ const AdminScreen = () => {
     }
 
     const getMemberData = useCallback(() => {
-        axios.get('http://localhost:8080/memberList')
+        axios.get(`${URL}/memberList`)
             .then(res => {
                 setMemberList(res.data);
             })
